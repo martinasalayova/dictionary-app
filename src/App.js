@@ -9,6 +9,12 @@ function App() {
           <h1>Dictionary</h1>
         </header>
         <Dictionary />
+        <footer>
+          Coded by{" "}
+          <a href="https://github.com/martinasalayova/dictionary-app">
+            Martina Salayová
+          </a>
+        </footer>
       </div>
     </div>
   );
