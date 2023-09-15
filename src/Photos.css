@@ -1,0 +1,6 @@
+.Photos img {
+  padding: 12px;
+  border-radius: 15px;
+  width: fit-content;
+  height: fit-content;
+}

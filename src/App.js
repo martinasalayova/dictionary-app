@@ -6,16 +6,21 @@ function App() {
     <div className="App">
       <div className="container">
         <header>
-          <h1>Dictionary</h1>
+          <a href="/" rel="noreferer">
+            <h1>Dictionary 📖</h1>
+          </a>
         </header>
         <Dictionary />
-        <footer>
-          Coded by{" "}
-          <a href="https://github.com/martinasalayova/dictionary-app">
-            Martina Salayová
-          </a>
-        </footer>
       </div>
+      <footer>
+        Coded by{" "}
+        <a
+          href="https://github.com/martinasalayova/dictionary-app"
+          rel="noreferer"
+        >
+          Martina Salayová
+        </a>
+      </footer>
     </div>
   );
 }
